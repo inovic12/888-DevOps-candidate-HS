@@ -10,8 +10,21 @@ This assignment build from 3 tasks (Windows, Linux, Docker). To complete this as
 
 ## Windows Task
 
-  - Build a windows server (you can download predeployed windows 2016 ova from here: )
+  - Build a Windows server (you can download predeployed windows 2016 ova from here: )
   - Create a script to install IIS and create a site which serves HTML page with "Hello World"
   - Create a self-signed certificate and bind it to the site you created in the previous bullet on port 443
   - Install dns service and create new zone(you can choose any domain name that you want)
-  - 
+  - add a record to point the local web server you created in bullet 2, also make sure to create a record to perform dns reverse lookup
+  - publish a small exe file via the web site you created download it. Record(sniff) the download session into a pcap file.
+  - filter the download session from the pcap file and create a screenshot, describe the communication steps steps in the session
+
+## Linux Task\Docker Task
+
+- Build a Linux server (you can choose your favorite flavor)
+- Create a script to install Apache\Ngninx and create a site which serves HTML page with "Hello World"
+- Create a self-signed certificate and bind it to the site you created in the previous bullet on port 443
+- Install dns service and create new zone(you can choose any domain name that you want)
+- add a record to point the local web server you created in bullet 2, also make sure to create a record to perform dns reverse lookup
+- publish a small exe file via the web site you created download it. Record(sniff) the download session into a pcap file.
+- filter the download session from the pcap file and create a screenshot, describe the communication steps steps in the session
+
