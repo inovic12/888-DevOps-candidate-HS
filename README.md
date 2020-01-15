@@ -25,8 +25,9 @@ This assignment build from 3 tasks (Windows, Linux, Docker). To complete this as
 - Create a script to install Apache\Ngninx and create a site which serves HTML page with "Hello World"
 - Create a self-signed certificate and bind it to the site you created in the previous bullet on port 443
 - Install dns service and create new zone(you can choose any domain name that you want)
-- Add a record to point the local web server you created in bullet 2, also make sure to create a record to perform dns reverse lookup
-- Publish a small exe file via the web site you created download it. Record(sniff) the download session into a pcap file.
+- Add a small exe file or a an image to the web site you created and download it. Record(sniff) the download session into a pcap file.
 - Filter the download session from the pcap file and create a screenshot, describe the communication steps steps in the session
+- Write a script that read the IIS log file, parse it and write into a csv file the date, time, s-ip, cs-uri-query, sc-status
+
 
 **Login details for Linux predeployed OVA - Username: osboxes | Password: osboxes.org | Root Account Password: osboxes.org**
